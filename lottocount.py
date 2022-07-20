@@ -11,7 +11,7 @@ for lottonum in range(6):
     alist.append(a)
 countsum = 0
 for a in range(1000000):
-    while lot_grade <5:             #숫자이상 중복된 숫자가 나오면 종료
+    while lot_grade <6:             #숫자이상 중복된 숫자가 나오면 종료
         lot_grade=0
         play_list =[]
         while len(play_list)<6:
