@@ -13,5 +13,11 @@ for i in range(300):
         a.color(random.choice(colorlist))
         a.forward(i)
         a.right(91)
+a.setposition(0,0)
+for i in range(30):
+    for time in range(5):
+        a.forward(350)
+        a.right(144)
+    a.right(12)
 
 turtle.done()
