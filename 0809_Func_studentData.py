@@ -9,7 +9,10 @@ def newOutputData(argListA, argListB):
     for a in range(len(argListA)):
             print("[",end='')
             for b in range(len(argListB)):
-                print(argListB[b], argListA[a][b],end=' ')
+                if b == 6:
+                    print(argListB[b], round(argListA[a][b], 1),end=' ')
+                else:
+                    print(argListB[b], argListA[a][b],end=' ')
             print()
 
 # 학생정보 입력 함수
@@ -30,7 +33,7 @@ def menu():
     print(" 2. 학생 목록 출력(입력순)")
     print(" 3. 프로그램 종료","\n")
     print("현 입력데이터 갯수 : ", len(totalList))
-    print("전체 학생 평균 값 : ",totalAvg)
+    print("전체 학생 평균 값 : ",round(totalAvg, 2))
     print("=" * 20)
 #############################################################
 
