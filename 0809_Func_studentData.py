@@ -9,6 +9,7 @@ def newOutputData(argListA, argListB):
     for a in range(len(argListA)):
             print("[",end='')
             for b in range(len(argListB)):
+                # 평균값의 소수점 첫번째 자리까지만 출력
                 if b == 6:
                     print(argListB[b], round(argListA[a][b], 1),end=' ')
                 else:
