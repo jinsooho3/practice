@@ -1,10 +1,7 @@
-from audioop import mul
-
-
 value = 10
 
 def multiply10():
-    # global value
+    #global value
     
     value = value * 10
 
