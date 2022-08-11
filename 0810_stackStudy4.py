@@ -9,15 +9,12 @@ def foo(argFA):
     f_temp = "hello"
     han(f_temp)
     f_temp = "jung"
-    
     return f_temp
     
 def han(argHA):
     print(argHA)
 
-
 myList =[2, 3]
 
 bar(myList)
-
 print(myList)
